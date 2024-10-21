@@ -1,0 +1,8 @@
+.env
+.venv/
+uk-blogs/
+processed/
+__pycache__/
+.pytest_cache/
+test_model_response_*.txt
+test_model_response_*.csv

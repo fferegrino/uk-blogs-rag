@@ -1,0 +1,30 @@
+{
+    "test_names": [
+        "Article about generative AI",
+        "Article about music"
+    ],
+    "tests": [
+        {
+            "id": "article_about_generative_ai",
+            "name": "Article about generative AI",
+            "article": "Policy Lab has experimented with Artificial Intelligence (AI) in policy development with teams across government, and beyond, for a number of years. In 2019 we worked with the Department for Transport\u2019s data science team to consider the role that AI could play in improving the efficiency and effectiveness of the policy consultation process. In 2022 we used AI to create a vision for the future of Hounslow with the local authority. In 2023, we commissioned the creation of the Ecological Intelligence Agency, a speculative artefact to help experience the role AI might have in future decision-making in environmental policy. \n\nThis blog explains how Policy Lab used generative AI in policy relating to the future of the subsurface. Broadly speaking, generative AI can be understood as systems that create new data, which could be new code, text, images, video or other forms of data. We used generative AI to visualise evidence, bring to life policy ideas, and create this blog, written iteratively with a system trained on Policy Lab\u2019s publicly available content.",
+            "expected_words": [
+                "Policy Lab",
+                "AI",
+                "generative AI",
+                "government"
+            ]
+        },
+        {
+            "id": "article_about_music",
+            "name": "Article about music",
+            "article": "Music is part of the National Curriculum from the ages of 5 to 14, and should be taught in a carefully planned, sequenced way just like maths, English or science. \n\nA great music education in school includes: \n\n - at least one hour of classroom music teaching a week for key stage 1 to 3 (years 1 to 9)\n - access to lessons across a range of instruments, and singing\n - opportunities to join a school choir or vocal group\n - opportunities to join a school ensemble, band or group (such as an orchestra or rock band)\n - opportunities to listen to music, for example in concerts, competitions or shows\n - opportunities to go to live performances at least once a year\n - opportunities to take music qualifications in secondary school\n",
+            "expected_words": [
+                "music",
+                "school",
+                "instrument",
+                "performance"
+            ]
+        }
+    ]
+}
